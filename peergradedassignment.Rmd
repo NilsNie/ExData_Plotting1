@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## 1 plot 1
 
 ```{r}
-setwd("C:/Users/nilsn/Google Drive/Weiterbildung/R Programming/Exploratory data analyses/week1")
+setwd("C:/Users/.../R Programming/Exploratory data analyses/week1")
 totalinput <- read.table("household_power_consumption.txt", header = TRUE, sep = ";", na.strings = "?")
 
 
